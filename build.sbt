@@ -17,5 +17,8 @@ lazy val providedDependencies = Seq(
 libraryDependencies ++= providedDependencies
 
 libraryDependencies ++= Seq(
-  "com.databricks" %% "spark-csv" % "1.3.0"
+  "com.databricks" %% "spark-csv" % "1.3.0",
+  "org.elasticsearch" %% "elasticsearch-spark" % "2.2.0"
+//  "org.apache.mahout" %% "mahout-math-scala" % "0.11.1",
+//  "org.apache.mahout" %% "mahout-spark" % "0.11.1"
 )
